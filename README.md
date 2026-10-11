@@ -1,16 +1,16 @@
-# 🔐 Secure Multi-Agent RAG Framework
+#  Secure Multi-Agent RAG Framework
 
 ### Intelligent Technical Knowledge Management
 
 A document-based question-answering system that combines **Retrieval-Augmented Generation (RAG), multi-agent orchestration, vector search, and knowledge graphs** to help users retrieve relevant information from technical documents.
 
-## 🚀 Overview
+##  Overview
 
 The Secure Multi-Agent RAG Framework allows users to upload technical PDF documents and ask natural-language questions. The system retrieves relevant document content and returns answers with supporting source references.
 
 It uses a multi-agent workflow to route questions and integrates vector-based retrieval with knowledge-graph capabilities for structured relationship discovery.
 
-## ✨ Key Features
+##  Key Features
 
 - **PDF Document Upload:** Upload technical PDF files to build a searchable knowledge base.
 - **Intelligent Question Answering:** Ask natural-language questions about uploaded documents.
@@ -22,7 +22,7 @@ It uses a multi-agent workflow to route questions and integrates vector-based re
 - **Interactive Interface:** Use a Streamlit frontend to upload documents and interact with the assistant.
 - **REST API:** Use FastAPI endpoints for document ingestion, retrieval, and question answering.
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```text
                  User
@@ -56,7 +56,7 @@ It uses a multi-agent workflow to route questions and integrates vector-based re
 
 *The architecture illustrates the intended system components; graph-based retrieval and agent routing depend on their implemented integration.*
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Component | Technology |
 |---|---|
@@ -70,7 +70,7 @@ It uses a multi-agent workflow to route questions and integrates vector-based re
 | Document Processing | PDF parsing and text chunking |
 | Version Control | Git and GitHub |
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 secure-multi-agent-rag/
@@ -92,7 +92,7 @@ secure-multi-agent-rag/
 └── README.md
 ```
 
-## ⚙️ Installation and Setup
+##  Installation and Setup
 
 ### 1. Clone the repository
 
@@ -157,7 +157,7 @@ Open the local URL printed in the terminal, usually:
 
 `http://localhost:8501`
 
-## 💡 How to Use
+##  How to Use
 
 1. Start the FastAPI backend and Streamlit frontend.
 2. Upload a technical PDF through the document-management sidebar.
@@ -166,7 +166,7 @@ Open the local URL printed in the terminal, usually:
 5. Submit the question and review the generated answer.
 6. Inspect the supporting source references.
 
-## 🔒 Security Considerations
+##  Security Considerations
 
 - Store API keys and database credentials in environment variables.
 - Exclude `.env`, virtual environments, and generated databases from version control where appropriate.
@@ -174,7 +174,7 @@ Open the local URL printed in the terminal, usually:
 - Avoid logging sensitive document content or credentials.
 - Apply authentication and access controls before exposing the application publicly.
 
-## 🧪 Testing
+##  Testing
 
 The repository includes test modules for selected components, such as document chunking, retrieval, the RAG pipeline, and question routing.
 
@@ -186,7 +186,7 @@ python -m pytest
 
 Some tests may require configured environment variables, external services, or additional dependencies.
 
-## 🗺️ Future Improvements
+##  Future Improvements
 
 - Complete knowledge-graph retrieval integration.
 - Extract entities and relationships automatically from uploaded documents.
@@ -195,11 +195,11 @@ Some tests may require configured environment variables, external services, or a
 - Add authentication, authorization, and secure deployment.
 - Evaluate performance across different document collections and question types.
 
-## 🎯 Project Objective
+##  Project Objective
 
 To develop a modular, secure, and extensible technical knowledge assistant that combines semantic document retrieval and multi-agent workflows, with knowledge-graph capabilities for richer contextual understanding.
 
-## 👩‍💻 Author
+##  Author
 
 **Harshitha S.**
 
