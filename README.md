@@ -1,4 +1,4 @@
-#  Secure Multi-Agent RAG Framework
+#  Secure Multi-Agent RAG 
 
 ### Intelligent Technical Knowledge Management
 
